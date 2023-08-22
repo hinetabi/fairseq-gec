@@ -1,0 +1,340 @@
+Traceback (most recent call last):
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 22, in <module>
+    from fairseq import distributed_utils, options, progress_bar, tasks, utils
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/__init__.py", line 12, in <module>
+    import fairseq.models
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/__init__.py", line 15, in <module>
+    from .fairseq_model import (
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/fairseq_model.py", line 14, in <module>
+    from fairseq.data import Dictionary
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/__init__.py", line 12, in <module>
+    from .indexed_dataset import IndexedCachedDataset, IndexedDataset, IndexedRawTextDataset, IndexedRawLabelDataset
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/indexed_dataset.py", line 31, in <module>
+    6: np.float,
+  File "/home/lenovo/anaconda3/envs/torch/lib/python3.10/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'cfloat'?
+Traceback (most recent call last):
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 22, in <module>
+    from fairseq import distributed_utils, options, progress_bar, tasks, utils
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/__init__.py", line 12, in <module>
+    import fairseq.models
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/__init__.py", line 15, in <module>
+    from .fairseq_model import (
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/fairseq_model.py", line 14, in <module>
+    from fairseq.data import Dictionary
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/__init__.py", line 12, in <module>
+    from .indexed_dataset import IndexedCachedDataset, IndexedDataset, IndexedRawTextDataset, IndexedRawLabelDataset
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/indexed_dataset.py", line 31, in <module>
+    6: np.float,
+  File "/home/lenovo/anaconda3/envs/torch/lib/python3.10/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'cfloat'?
+Traceback (most recent call last):
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 22, in <module>
+    from fairseq import distributed_utils, options, progress_bar, tasks, utils
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/__init__.py", line 12, in <module>
+    import fairseq.models
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/__init__.py", line 15, in <module>
+    from .fairseq_model import (
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/fairseq_model.py", line 14, in <module>
+    from fairseq.data import Dictionary
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/__init__.py", line 12, in <module>
+    from .indexed_dataset import IndexedCachedDataset, IndexedDataset, IndexedRawTextDataset, IndexedRawLabelDataset
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/indexed_dataset.py", line 31, in <module>
+    6: np.float,
+  File "/home/lenovo/anaconda3/envs/torch/lib/python3.10/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'cfloat'?
+Traceback (most recent call last):
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 22, in <module>
+    from fairseq import distributed_utils, options, progress_bar, tasks, utils
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/__init__.py", line 12, in <module>
+    import fairseq.models
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/__init__.py", line 15, in <module>
+    from .fairseq_model import (
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/fairseq_model.py", line 14, in <module>
+    from fairseq.data import Dictionary
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/__init__.py", line 12, in <module>
+    from .indexed_dataset import IndexedCachedDataset, IndexedDataset, IndexedRawTextDataset, IndexedRawLabelDataset
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/indexed_dataset.py", line 31, in <module>
+    6: np.float,
+  File "/home/lenovo/anaconda3/envs/torch/lib/python3.10/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'cfloat'?
+Traceback (most recent call last):
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 22, in <module>
+    from fairseq import distributed_utils, options, progress_bar, tasks, utils
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/__init__.py", line 12, in <module>
+    import fairseq.models
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/__init__.py", line 15, in <module>
+    from .fairseq_model import (
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/fairseq_model.py", line 14, in <module>
+    from fairseq.data import Dictionary
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/__init__.py", line 12, in <module>
+    from .indexed_dataset import IndexedCachedDataset, IndexedDataset, IndexedRawTextDataset, IndexedRawLabelDataset
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/indexed_dataset.py", line 31, in <module>
+    6: np.float,
+  File "/home/lenovo/anaconda3/envs/torch/lib/python3.10/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'cfloat'?
+Traceback (most recent call last):
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 22, in <module>
+    from fairseq import distributed_utils, options, progress_bar, tasks, utils
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/__init__.py", line 12, in <module>
+    import fairseq.models
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/__init__.py", line 15, in <module>
+    from .fairseq_model import (
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/fairseq_model.py", line 14, in <module>
+    from fairseq.data import Dictionary
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/__init__.py", line 12, in <module>
+    from .indexed_dataset import IndexedCachedDataset, IndexedDataset, IndexedRawTextDataset, IndexedRawLabelDataset
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/indexed_dataset.py", line 31, in <module>
+    6: np.float,
+  File "/home/lenovo/anaconda3/envs/torch/lib/python3.10/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'cfloat'?
+Traceback (most recent call last):
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 22, in <module>
+    from fairseq import distributed_utils, options, progress_bar, tasks, utils
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/__init__.py", line 12, in <module>
+    import fairseq.models
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/__init__.py", line 15, in <module>
+    from .fairseq_model import (
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/fairseq_model.py", line 14, in <module>
+    from fairseq.data import Dictionary
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/__init__.py", line 12, in <module>
+    from .indexed_dataset import IndexedCachedDataset, IndexedDataset, IndexedRawTextDataset, IndexedRawLabelDataset
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/indexed_dataset.py", line 31, in <module>
+    6: np.float,
+  File "/home/lenovo/anaconda3/envs/torch/lib/python3.10/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'cfloat'?
+Traceback (most recent call last):
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 22, in <module>
+    from fairseq import distributed_utils, options, progress_bar, tasks, utils
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/__init__.py", line 12, in <module>
+    import fairseq.models
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/__init__.py", line 15, in <module>
+    from .fairseq_model import (
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/models/fairseq_model.py", line 14, in <module>
+    from fairseq.data import Dictionary
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/__init__.py", line 12, in <module>
+    from .indexed_dataset import IndexedCachedDataset, IndexedDataset, IndexedRawTextDataset, IndexedRawLabelDataset
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/data/indexed_dataset.py", line 31, in <module>
+    6: np.float,
+  File "/home/lenovo/anaconda3/envs/torch/lib/python3.10/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'cfloat'?
+GIT: b'master\n' b'10aafebc482706346f768e4f18a9813153cb1ecc\n'
+2023-08-22 23:19:11
+--------------------------------------------------------------------------------
+Namespace(no_progress_bar=True, log_interval=1000, log_format=None, tensorboard_logdir='', seed=4321, cpu=False, fp16=False, memory_efficient_fp16=False, fp16_init_scale=128, fp16_scale_window=None, fp16_scale_tolerance=0.0, min_loss_scale=0.0001, threshold_loss_scale=None, user_dir=None, task='translation', num_workers=0, skip_invalid_size_inputs_valid_test=False, max_tokens=3000, max_sentences=64, train_subset='train', valid_subset='valid', max_sentences_valid=64, curriculum=0, positive_label_weight=1.2, distributed_world_size=1, distributed_rank=0, distributed_backend='nccl', distributed_init_method=None, distributed_port=-1, device_id=0, ddp_backend='c10d', bucket_cap_mb=25, fix_batches_to_gpus=False, arch='transformer', criterion='cross_entropy', max_epoch=15, max_update=0, clip_norm=2.0, sentence_avg=False, update_freq=[1], ema_decay=0.9999, no_ema=False, optimizer='nag', lr=[0.001], momentum=0.99, weight_decay=0.0, lr_scheduler='triangular', lr_shrink=0.95, min_lr=1e-05, save_dir='./out/models', restore_file='checkpoint_last.pt', reset_optimizer=False, reset_lr_scheduler=False, optimizer_overrides='{}', save_interval=1, save_interval_updates=0, keep_interval_updates=-1, keep_last_epochs=-1, no_save=False, no_epoch_checkpoints=False, validate_interval=1, no_token_positional_embeddings=False, copy_attention=False, copy_attention_heads=1, copy_attention_dropout=0.2, pretrained_model='', max_lr=0.004, lr_period_updates=73328.0, shrink_min=True, data=['./out/data_bin'], source_lang=None, target_lang=None, lazy_load=False, raw_text=False, copy_ext_dict=False, left_pad_source='True', left_pad_target='False', max_source_positions=1024, max_target_positions=1024, upsample_primary=1, dropout=0.2, relu_dropout=0.2, attention_dropout=0.2, encoder_embed_dim=512, decoder_embed_dim=512, encoder_ffn_embed_dim=4096, decoder_ffn_embed_dim=4096, encoder_attention_heads=8, decoder_attention_heads=8, share_all_embeddings=True, encoder_embed_path=None, encoder_layers=6, encoder_normalize_before=False, encoder_learned_pos=False, decoder_embed_path=None, decoder_layers=6, decoder_normalize_before=False, decoder_learned_pos=False, adaptive_softmax_cutoff=None, adaptive_softmax_dropout=0, share_decoder_input_output_embed=False, decoder_output_dim=512, decoder_input_dim=512)
+Traceback (most recent call last):
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 435, in <module>
+    cli_main()
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 431, in cli_main
+    main(args)
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 42, in main
+    task = tasks.setup_task(args)
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/tasks/__init__.py", line 19, in setup_task
+    return TASK_REGISTRY[args.task].setup_task(args)
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/tasks/translation.py", line 112, in setup_task
+    raise Exception('Could not infer language pair, please provide it explicitly')
+Exception: Could not infer language pair, please provide it explicitly
+usage: train.py [-h] [--no-progress-bar] [--log-interval N]
+                [--log-format {json,none,simple,tqdm}]
+                [--tensorboard-logdir DIR] [--seed N] [--cpu] [--fp16]
+                [--memory-efficient-fp16] [--fp16-init-scale FP16_INIT_SCALE]
+                [--fp16-scale-window FP16_SCALE_WINDOW]
+                [--fp16-scale-tolerance FP16_SCALE_TOLERANCE]
+                [--min-loss-scale D]
+                [--threshold-loss-scale THRESHOLD_LOSS_SCALE]
+                [--user-dir USER_DIR] [--task TASK] [--num-workers N]
+                [--skip-invalid-size-inputs-valid-test] [--max-tokens N]
+                [--max-sentences N] [--train-subset SPLIT]
+                [--valid-subset SPLIT] [--max-sentences-valid N]
+                [--curriculum N] [--positive-label-weight FP]
+                [--distributed-world-size N]
+                [--distributed-rank DISTRIBUTED_RANK]
+                [--distributed-backend DISTRIBUTED_BACKEND]
+                [--distributed-init-method DISTRIBUTED_INIT_METHOD]
+                [--distributed-port DISTRIBUTED_PORT] [--device-id DEVICE_ID]
+                [--ddp-backend {c10d,no_c10d}] [--bucket-cap-mb MB]
+                [--fix-batches-to-gpus] --arch ARCH [--criterion CRIT]
+                [--max-epoch N] [--max-update N] [--clip-norm NORM]
+                [--sentence-avg] [--update-freq N1,N2,...,N_K] [--ema-decay D]
+                [--no-ema] [--optimizer OPT] [--lr LR_1,LR_2,...,LR_N]
+                [--momentum M] [--weight-decay WD]
+                [--lr-scheduler {fixed,inverse_sqrt,triangular,reduce_lr_on_plateau,cosine}]
+                [--lr-shrink LS] [--min-lr LR] [--save-dir DIR]
+                [--restore-file RESTORE_FILE] [--reset-optimizer]
+                [--reset-lr-scheduler] [--optimizer-overrides DICT]
+                [--save-interval N] [--save-interval-updates N]
+                [--keep-interval-updates N] [--keep-last-epochs N] [--no-save]
+                [--no-epoch-checkpoints] [--validate-interval N] [--dropout D]
+                [--attention-dropout D] [--relu-dropout D]
+                [--encoder-embed-path STR] [--encoder-embed-dim N]
+                [--encoder-ffn-embed-dim N] [--encoder-layers N]
+                [--encoder-attention-heads N] [--encoder-normalize-before]
+                [--encoder-learned-pos] [--decoder-embed-path STR]
+                [--decoder-embed-dim N] [--decoder-ffn-embed-dim N]
+                [--decoder-layers N] [--decoder-attention-heads N]
+                [--decoder-learned-pos] [--decoder-normalize-before]
+                [--share-decoder-input-output-embed] [--share-all-embeddings]
+                [--no-token-positional-embeddings]
+                [--adaptive-softmax-cutoff EXPR]
+                [--adaptive-softmax-dropout D] [--copy-attention]
+                [--copy-attention-heads N] [--copy-attention-dropout D]
+                [--pretrained-model PRETRAINED_MODEL] --max-lr LR
+                [--lr-period-updates LR] [--shrink-min] [-s SRC] [-t TARGET]
+                [--lazy-load] [--raw-text] [--copy-ext-dict]
+                [--left-pad-source BOOL] [--left-pad-target BOOL]
+                [--max-source-positions N] [--max-target-positions N]
+                [--upsample-primary UPSAMPLE_PRIMARY]
+                data [data ...]
+train.py: error: unrecognized arguments: > ./out/logfirst.out
+usage: train.py [-h] [--no-progress-bar] [--log-interval N]
+                [--log-format {json,none,simple,tqdm}]
+                [--tensorboard-logdir DIR] [--seed N] [--cpu] [--fp16]
+                [--memory-efficient-fp16] [--fp16-init-scale FP16_INIT_SCALE]
+                [--fp16-scale-window FP16_SCALE_WINDOW]
+                [--fp16-scale-tolerance FP16_SCALE_TOLERANCE]
+                [--min-loss-scale D]
+                [--threshold-loss-scale THRESHOLD_LOSS_SCALE]
+                [--user-dir USER_DIR] [--task TASK] [--num-workers N]
+                [--skip-invalid-size-inputs-valid-test] [--max-tokens N]
+                [--max-sentences N] [--train-subset SPLIT]
+                [--valid-subset SPLIT] [--max-sentences-valid N]
+                [--curriculum N] [--positive-label-weight FP]
+                [--distributed-world-size N]
+                [--distributed-rank DISTRIBUTED_RANK]
+                [--distributed-backend DISTRIBUTED_BACKEND]
+                [--distributed-init-method DISTRIBUTED_INIT_METHOD]
+                [--distributed-port DISTRIBUTED_PORT] [--device-id DEVICE_ID]
+                [--ddp-backend {c10d,no_c10d}] [--bucket-cap-mb MB]
+                [--fix-batches-to-gpus] --arch ARCH [--criterion CRIT]
+                [--max-epoch N] [--max-update N] [--clip-norm NORM]
+                [--sentence-avg] [--update-freq N1,N2,...,N_K] [--ema-decay D]
+                [--no-ema] [--optimizer OPT] [--lr LR_1,LR_2,...,LR_N]
+                [--momentum M] [--weight-decay WD]
+                [--lr-scheduler {fixed,inverse_sqrt,triangular,reduce_lr_on_plateau,cosine}]
+                [--lr-shrink LS] [--min-lr LR] [--save-dir DIR]
+                [--restore-file RESTORE_FILE] [--reset-optimizer]
+                [--reset-lr-scheduler] [--optimizer-overrides DICT]
+                [--save-interval N] [--save-interval-updates N]
+                [--keep-interval-updates N] [--keep-last-epochs N] [--no-save]
+                [--no-epoch-checkpoints] [--validate-interval N] [--dropout D]
+                [--attention-dropout D] [--relu-dropout D]
+                [--encoder-embed-path STR] [--encoder-embed-dim N]
+                [--encoder-ffn-embed-dim N] [--encoder-layers N]
+                [--encoder-attention-heads N] [--encoder-normalize-before]
+                [--encoder-learned-pos] [--decoder-embed-path STR]
+                [--decoder-embed-dim N] [--decoder-ffn-embed-dim N]
+                [--decoder-layers N] [--decoder-attention-heads N]
+                [--decoder-learned-pos] [--decoder-normalize-before]
+                [--share-decoder-input-output-embed] [--share-all-embeddings]
+                [--no-token-positional-embeddings]
+                [--adaptive-softmax-cutoff EXPR]
+                [--adaptive-softmax-dropout D] [--copy-attention]
+                [--copy-attention-heads N] [--copy-attention-dropout D]
+                [--pretrained-model PRETRAINED_MODEL] --max-lr LR
+                [--lr-period-updates LR] [--shrink-min] [-s SRC] [-t TARGET]
+                [--lazy-load] [--raw-text] [--copy-ext-dict]
+                [--left-pad-source BOOL] [--left-pad-target BOOL]
+                [--max-source-positions N] [--max-target-positions N]
+                [--upsample-primary UPSAMPLE_PRIMARY]
+                data [data ...]
+train.py: error: unrecognized arguments: > ./out/logfirst.out
+usage: train.py [-h] [--no-progress-bar] [--log-interval N]
+                [--log-format {json,none,simple,tqdm}]
+                [--tensorboard-logdir DIR] [--seed N] [--cpu] [--fp16]
+                [--memory-efficient-fp16] [--fp16-init-scale FP16_INIT_SCALE]
+                [--fp16-scale-window FP16_SCALE_WINDOW]
+                [--fp16-scale-tolerance FP16_SCALE_TOLERANCE]
+                [--min-loss-scale D]
+                [--threshold-loss-scale THRESHOLD_LOSS_SCALE]
+                [--user-dir USER_DIR] [--task TASK] [--num-workers N]
+                [--skip-invalid-size-inputs-valid-test] [--max-tokens N]
+                [--max-sentences N] [--train-subset SPLIT]
+                [--valid-subset SPLIT] [--max-sentences-valid N]
+                [--curriculum N] [--positive-label-weight FP]
+                [--distributed-world-size N]
+                [--distributed-rank DISTRIBUTED_RANK]
+                [--distributed-backend DISTRIBUTED_BACKEND]
+                [--distributed-init-method DISTRIBUTED_INIT_METHOD]
+                [--distributed-port DISTRIBUTED_PORT] [--device-id DEVICE_ID]
+                [--ddp-backend {c10d,no_c10d}] [--bucket-cap-mb MB]
+                [--fix-batches-to-gpus] --arch ARCH [--criterion CRIT]
+                [--max-epoch N] [--max-update N] [--clip-norm NORM]
+                [--sentence-avg] [--update-freq N1,N2,...,N_K] [--ema-decay D]
+                [--no-ema] [--optimizer OPT] [--lr LR_1,LR_2,...,LR_N]
+                [--momentum M] [--weight-decay WD]
+                [--lr-scheduler {fixed,inverse_sqrt,triangular,reduce_lr_on_plateau,cosine}]
+                [--lr-shrink LS] [--min-lr LR] [--save-dir DIR]
+                [--restore-file RESTORE_FILE] [--reset-optimizer]
+                [--reset-lr-scheduler] [--optimizer-overrides DICT]
+                [--save-interval N] [--save-interval-updates N]
+                [--keep-interval-updates N] [--keep-last-epochs N] [--no-save]
+                [--no-epoch-checkpoints] [--validate-interval N] [--dropout D]
+                [--attention-dropout D] [--relu-dropout D]
+                [--encoder-embed-path STR] [--encoder-embed-dim N]
+                [--encoder-ffn-embed-dim N] [--encoder-layers N]
+                [--encoder-attention-heads N] [--encoder-normalize-before]
+                [--encoder-learned-pos] [--decoder-embed-path STR]
+                [--decoder-embed-dim N] [--decoder-ffn-embed-dim N]
+                [--decoder-layers N] [--decoder-attention-heads N]
+                [--decoder-learned-pos] [--decoder-normalize-before]
+                [--share-decoder-input-output-embed] [--share-all-embeddings]
+                [--no-token-positional-embeddings]
+                [--adaptive-softmax-cutoff EXPR]
+                [--adaptive-softmax-dropout D] [--copy-attention]
+                [--copy-attention-heads N] [--copy-attention-dropout D]
+                [--pretrained-model PRETRAINED_MODEL] --max-lr LR
+                [--lr-period-updates LR] [--shrink-min] [-s SRC] [-t TARGET]
+                [--lazy-load] [--raw-text] [--copy-ext-dict]
+                [--left-pad-source BOOL] [--left-pad-target BOOL]
+                [--max-source-positions N] [--max-target-positions N]
+                [--upsample-primary UPSAMPLE_PRIMARY]
+                data [data ...]
+train.py: error: unrecognized arguments: > ./out/logfirst.out
+GIT: b'master\n' b'10aafebc482706346f768e4f18a9813153cb1ecc\n'
+2023-08-22 23:23:21
+--------------------------------------------------------------------------------
+Namespace(no_progress_bar=False, log_interval=1000, log_format=None, tensorboard_logdir='', seed=4321, cpu=False, fp16=False, memory_efficient_fp16=False, fp16_init_scale=128, fp16_scale_window=None, fp16_scale_tolerance=0.0, min_loss_scale=0.0001, threshold_loss_scale=None, user_dir=None, task='translation', num_workers=0, skip_invalid_size_inputs_valid_test=False, max_tokens=3000, max_sentences=64, train_subset='train', valid_subset='valid', max_sentences_valid=64, curriculum=0, positive_label_weight=1, distributed_world_size=1, distributed_rank=0, distributed_backend='nccl', distributed_init_method=None, distributed_port=-1, device_id=0, ddp_backend='c10d', bucket_cap_mb=25, fix_batches_to_gpus=False, arch='transformer', criterion='cross_entropy', max_epoch=15, max_update=0, clip_norm=2.0, sentence_avg=False, update_freq=[1], ema_decay=0.9999, no_ema=False, optimizer='nag', lr=[0.001], momentum=0.99, weight_decay=0.0, lr_scheduler='triangular', lr_shrink=0.95, min_lr=1e-05, save_dir='./out/models', restore_file='checkpoint_last.pt', reset_optimizer=False, reset_lr_scheduler=False, optimizer_overrides='{}', save_interval=1, save_interval_updates=0, keep_interval_updates=-1, keep_last_epochs=-1, no_save=False, no_epoch_checkpoints=False, validate_interval=1, no_token_positional_embeddings=False, copy_attention=False, copy_attention_heads=1, copy_attention_dropout=0.2, pretrained_model='', max_lr=0.004, lr_period_updates=73328.0, shrink_min=True, data=['./out/data_bin'], source_lang=None, target_lang=None, lazy_load=False, raw_text=False, copy_ext_dict=False, left_pad_source='True', left_pad_target='False', max_source_positions=1024, max_target_positions=1024, upsample_primary=1, dropout=0.2, relu_dropout=0.2, attention_dropout=0.2, encoder_embed_dim=512, decoder_embed_dim=512, encoder_ffn_embed_dim=4096, decoder_ffn_embed_dim=4096, encoder_attention_heads=8, decoder_attention_heads=8, encoder_embed_path=None, encoder_layers=6, encoder_normalize_before=False, encoder_learned_pos=False, decoder_embed_path=None, decoder_layers=6, decoder_normalize_before=False, decoder_learned_pos=False, adaptive_softmax_cutoff=None, adaptive_softmax_dropout=0, share_decoder_input_output_embed=False, share_all_embeddings=False, decoder_output_dim=512, decoder_input_dim=512)
+Traceback (most recent call last):
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 435, in <module>
+    cli_main()
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 431, in cli_main
+    main(args)
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/train.py", line 42, in main
+    task = tasks.setup_task(args)
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/tasks/__init__.py", line 19, in setup_task
+    return TASK_REGISTRY[args.task].setup_task(args)
+  File "/home/lenovo/Documents/1. FPT University/4.Project/fairseq-gec/fairseq/tasks/translation.py", line 112, in setup_task
+    raise Exception('Could not infer language pair, please provide it explicitly')
+Exception: Could not infer language pair, please provide it explicitly
