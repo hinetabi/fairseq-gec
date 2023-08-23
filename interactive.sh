@@ -9,7 +9,7 @@ fi
 beam=12
 
 CUDA_VISIBLE_DEVICES=0 python interactive.py $DATA_RAW \
---path ./out_big_art/models_denoise/checkpoint5.pt \
+--path ./out/models/checkpointema_last.pt \
 --beam $beam \
 --nbest $beam \
 --no-progress-bar \

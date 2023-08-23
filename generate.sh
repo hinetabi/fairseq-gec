@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
 source ./config.sh
 
+DATA_RAW="./out/data_bin_art_1"
 set -e
+echo "using this file for test: "$DATA_RAW
 
 ema='ema'
-
-rm -rf $DATA_RAW/test.src-tgt.src $DATA_RAW/test.src-tgt.tgt
-python gec_scripts/split.py $DATA_RAW/test.src-tgt.src.old $DATA_RAW/test.src-tgt.src $DATA_RAW/test.idx
-cp $DATA_RAW/test.src-tgt.src $DATA_RAW/test.src-tgt.tgt
+ 
+# this code used for split many sentences in 1 row -> many rows, each row contains a sentence
+# rm -rf $DATA_RAW/test.src-tgt.src $DATA_RAW/test.src-tgt.tgt
+# python gec_scripts/split.py $DATA_RAW/test.src-tgt.src.old $DATA_RAW/test.src-tgt.src $DATA_RAW/test.idx
+# cp $DATA_RAW/test.src-tgt.src $DATA_RAW/test.src-tgt.tgt
 
 epochs='_last'
 for epoch in ${epochs[*]}; do

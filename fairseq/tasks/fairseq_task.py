@@ -240,6 +240,8 @@ class FairseqTask(object):
 
     def inference_step(self, generator, models, sample, prefix_tokens=None):
         with torch.no_grad():
+            print(f"model: {models}")
+            print(f"Sample: {sample}")
             return generator.generate(models, sample, prefix_tokens=prefix_tokens)
 
     def grad_denom(self, sample_sizes, criterion):

@@ -14,21 +14,26 @@ common_params='--source-lang src --target-lang tgt
 --joined-dictionary 
 '
 
-for epoch in {1..9}; do
+for epoch in {1..1}; do
     echo $epoch
 
+    # testpref=$DATA/test_1b_$epoch
     trainpref=$DATA/train_1b_$epoch
-    validpref=$DATA/valid
+
+    # validpref=$DATA/valid
+
+    # add valid if process valid data
+    # --validpref $validpref \
+
 
     # preprocess train/valid
     python preprocess.py \
     $common_params \
     $copy_params \
     --trainpref $trainpref \
-    --validpref $validpref \
     --destdir ${DATA_BIN}_art_$epoch \
-    --output-format binary \
+    --output-format raw \
     --alignfile $trainpref.forward \
-    | tee $OUT/data_art_bin_$epoch.log
-
+    | tee $OUT/data_bin_art_$epoch.log
 done
+ 

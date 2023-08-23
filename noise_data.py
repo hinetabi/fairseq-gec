@@ -127,8 +127,9 @@ np.random.seed(args.seed)
 if __name__ == '__main__':
     print("epoch={}, seed={}".format(args.epoch, args.seed))
 
-    filename = './data/train_1b.tgt'
-    ofile_suffix = './data_art/train_1b_{}'.format(args.epoch)
+    # filename = './out/data_raw/test.src-tgt.tgt'
+    filename = './out/data_raw/test.src-tgt.tgt'
+    ofile_suffix = './out/data_raw/train_1b_{}'.format(args.epoch)
 
     noise(filename, ofile_suffix)
 
