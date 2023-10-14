@@ -6,3 +6,4 @@ examples/
 docs/
 data/
 build/
+*__pycache__**

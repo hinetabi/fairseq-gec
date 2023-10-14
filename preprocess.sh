@@ -21,21 +21,21 @@ trainpref='data/train_merge'
 validpref='data/valid'
 
 # preprocess train/valid
-python preprocess.py \
-$common_params \
-$copy_params \
---trainpref $trainpref \
---validpref $validpref \
---destdir $DATA_BIN \
---output-format binary \
---alignfile $trainpref.forward \
-| tee $OUT/data_bin.log
+# python preprocess.py \
+# $common_params \
+# $copy_params \
+# --trainpref $trainpref \
+# --validpref $validpref \
+# --destdir $DATA_BIN \
+# --output-format binary \
+# --alignfile $trainpref.forward \
+# | tee $OUT/data_bin.log
 
 # preprocess test
 python preprocess.py \
 $common_params \
 $copy_params \
---testpref data/test \
+--testpref data/ \
 --destdir $DATA_RAW \
 --output-format raw \
 | tee $OUT/data_raw.log

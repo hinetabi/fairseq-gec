@@ -10,7 +10,9 @@ import struct
 
 import numpy as np
 import torch
+import logging
 
+logging.basicConfig(level=logging.INFO)
 
 def read_longs(f, n):
     a = np.empty(n, dtype=np.int64)
@@ -174,6 +176,13 @@ class IndexedRawTextDataset(torch.utils.data.Dataset):
             for line in f:
                 self.lines.append(line.strip('\n'))
                 out_words = []
+                
+                # logging.info(f"lines {self.lines[0]}")'
+                # if self.src_dataset is not None:
+                    # words list of src when create tgt dataset
+                    # logging.info(f"len lines {len(self.lines[0])}")
+                    # logging.info(f"words_list {self.src_dataset.words_list}")
+
                 copy_src_words = None if self.src_dataset is None else self.src_dataset.words_list[len(self.lines)-1]
                 tokens = dictionary.encode_line(
                     line, add_if_not_exist=False,

@@ -65,7 +65,7 @@ def main(args):
         args.max_sentences = 1
 
     assert not args.sampling or args.nbest == args.beam, \
-        '--sampling requires --nbest to be equal to --beam'
+        '--sampling requires --nbmax_sentencesest to be equal to --beam'
     assert not args.max_sentences or args.max_sentences <= args.buffer_size, \
         '--max-sentences/--batch-size cannot be larger than --buffer-size'
 
@@ -103,6 +103,7 @@ def main(args):
 
     # Load alignment dictionary for unknown word replacement
     # (None if no unknown word replacement, empty if no path to align dictionary)
+    # align dict in this case = {}
     align_dict = utils.load_align_dict(args.replace_unk)
     if align_dict is None and args.copy_ext_dict:
         align_dict = {}

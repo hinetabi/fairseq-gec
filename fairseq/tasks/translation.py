@@ -179,7 +179,10 @@ class TranslationTask(FairseqTask):
                         break
                     else:
                         raise FileNotFoundError('Dataset not found: {} ({})'.format(split, data_path))
+
                 src_dataset = indexed_dataset(prefix + src, self.src_dict, self.args.copy_ext_dict)
+                # logging.info(f"src words_list dataset {src_dataset.words_list}")
+
                 tgt_dataset = indexed_dataset(prefix + tgt, self.tgt_dict, self.args.copy_ext_dict, src_dataset)
                 src_datasets.append(src_dataset)
                 tgt_datasets.append(tgt_dataset)
